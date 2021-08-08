@@ -10,6 +10,5 @@ createConnection().then(async connection => {
     controllers: [UserController],
   })
   app.listen(port)
-  console.log(app)
   console.log(`server running on port:${port}`)
 }).catch(error => console.log(error));
